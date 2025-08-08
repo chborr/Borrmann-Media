@@ -1,0 +1,734 @@
+
+html{
+    font-family: sans-serif;
+    hyphens: auto;
+    word-break: all;
+}
+main{
+    width: auto;
+    
+}
+
+body{
+    width: 100%;
+    padding:0;
+    margin:0;
+}
+
+ @media (min-width: 1025px) {
+    
+
+
+p{
+    font-size:1.1rem;
+    line-height:1.8rem;
+    font-weight: lighter;
+}
+
+h1{
+    font-size:2.5rem;
+}
+
+h2{
+    font-size:2rem;
+    font-weight: bold;
+}
+
+h3{
+    font-size:1.6rem;
+    font-weight: 600;
+    color: rgb(16, 31, 54);
+}
+
+
+
+a{
+    color:white;
+    text-decoration: none;
+}
+
+a:hover {
+       
+    text-decoration:underline;
+}
+
+
+
+header{
+    background-color:rgb(19, 37, 65);
+    width: 80%;
+    height:80px;
+    display: flex;
+    padding-left:10%;
+    padding-right:10%;
+    position: fixed;
+    z-index: 1;
+    filter: drop-shadow(0px 2px 4px rgb(0, 0, 0));
+}
+
+.logo{
+    width:15%;
+    height: auto;
+    margin-top: auto;
+    margin-bottom:auto;
+}
+
+.contact{
+    margin-top: auto;
+    margin-bottom:auto;
+    margin-left:auto;
+
+}
+
+.opener{
+    background-image:url(borrmann-media_hintergrund_webseite.jpg);
+    background-position: bottom;
+    background-size: cover;
+    padding-right:10%;
+    padding-left:10%;
+    padding-bottom:3%;
+    padding-top:10%;
+    height:40%;
+    width: auto;
+    
+}
+
+.intro{
+    background-color: rgb(19, 37, 65);
+    width:40%;
+    height: auto;
+    padding:3%;
+    position: relative;
+    margin-top:0;
+    margin-bottom:0;
+    color:white;
+}
+
+.leistungen{
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    padding-top:2%;
+    padding-bottom:2%;
+    padding-right:10%;
+    padding-left:10%;
+}
+
+.elemente{
+    display: flex;
+    gap:2%;
+}
+
+.leistung1, .leistung2, .leistung3 {
+    width:30%;
+    color:black;
+    background-color: white;
+    padding:2%;
+    border: 1px solid rgb(187, 187, 187);
+    
+}
+
+.referenzen{
+    background-color: rgb(226, 226, 226);
+    padding-right:10%;
+    padding-left:10%;
+    padding-top:3%;
+    padding-bottom:3%;
+    height: auto;
+}
+
+.refbox {
+    width:100%;
+    border: 0.5px solid rgb(204, 204, 204);
+    color:black;
+    background-color: white;
+    padding:2%;
+    margin-top:3%;
+    display: flex;
+    height:auto;
+}
+
+.fullwidth{
+    width:100%;
+    height:auto;
+}
+
+.column1{
+    width: 50%;
+    height: auto;
+    display: flex;
+  justify-content: center; /* Zentriert das Bild horizontal */
+  align-items: center;
+}
+.column2{
+    width:50%;
+}
+
+
+
+.reflogo{
+    
+    width: 50%;
+    padding-right:10%;
+    margin-right: 0;
+}
+
+button{
+    background-color: rgb(19, 37, 65);
+    padding-left:4%;
+    padding-right:4%;
+    padding-top:2%;
+    padding-bottom:2%;
+    color:white;
+    font-size:1rem;
+    border:none;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color:rgb(6, 10, 15);
+    color:white;
+}
+
+.alternativ{
+    background-color:white ;
+    padding-left:4%;
+    padding-right:4%;
+    padding-top:2%;
+    padding-bottom:2%;
+    color: black !important;
+    font-size:1rem;
+    border:none;
+    font-weight: bold
+}
+
+.alternativ a {
+    color:black;
+}
+
+.alternativ:hover{
+    background-color: lightgray;
+}
+
+
+
+.kontakte{
+    background-color:rgb(19, 37, 65) ;
+    color:white;
+   align-items: center;
+    height:auto;
+    padding-left:10%;
+    padding-right:10%;
+    display: flex;
+    
+    gap:3%;
+}
+.portrait{
+    width:30%;
+    padding-top:2%;
+    padding-bottom:2%;
+    padding-left:10%;
+}
+
+.portrait img{
+    width: 80%;
+    padding-right:10%;
+    padding-left:10%;
+    margin-right: 0;
+    margin-left: 0;;
+}
+
+.kontakt_info{
+    width:50%;
+    padding-top:2%;
+    padding-bottom:2%;
+}
+
+footer{
+    height: auto;
+    padding:2%;
+    text-align: center;
+    
+}
+
+footer a{
+    color:black;
+    padding:2%;
+
+}
+}
+/*TABLET*/
+
+
+@media (max-width:1024px) {
+p{
+    font-size:1.2rem;
+    line-height:1.8rem;
+    font-weight: lighter;
+}
+
+h1{
+    font-size:2.5rem;
+}
+
+h2{
+    font-size:2rem;
+    font-weight: bold;
+}
+
+h3{
+    font-size:1.6rem;
+    font-weight: 600;
+    color: rgb(16, 31, 54);
+}
+
+
+
+a{
+    color:white;
+    text-decoration: none;
+}
+
+a:hover {
+       
+    text-decoration:underline;
+}
+
+
+
+header{
+    background-color:rgb(19, 37, 65);
+    width: 80%;
+    height:90px;
+    display: flex;
+    padding-left:10%;
+    padding-right:10%;
+    position: fixed;
+    z-index: 1;
+    filter: drop-shadow(0px 2px 4px rgb(0, 0, 0));
+}
+
+.logo{
+    width:45%;
+    height: auto;
+    margin-top: auto;
+    margin-bottom:auto;
+}
+
+.contact{
+    margin-top: auto;
+    margin-bottom:auto;
+    margin-left:auto;
+
+}
+
+.opener{
+    background-image:url(borrmann-media_hintergrund_webseite.jpg);
+    background-position: bottom;
+    padding-right:10%;
+    padding-left:10%;
+    padding-bottom:3%;
+    padding-top:12%;
+    height:40%;
+    width: auto;
+    
+}
+
+.intro{
+    background-color: rgb(19, 37, 65);
+    width:60%;
+    height: auto;
+    padding:3%;
+    position: relative;
+    margin-top:0;
+    margin-bottom:0;
+    color:white;
+}
+
+.leistungen{
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    padding-top:2%;
+    padding-bottom:2%;
+    padding-right:10%;
+    padding-left:10%;
+}
+
+.elemente{
+    display: flex;
+    gap:2%;
+}
+
+.leistung1, .leistung2, .leistung3 {
+    width:30%;
+    color:black;
+    background-color: white;
+    padding:2%;
+    border: 1px solid rgb(187, 187, 187);
+    
+}
+
+.referenzen{
+    background-color: rgb(226, 226, 226);
+    padding-right:10%;
+    padding-left:10%;
+    padding-top:3%;
+    padding-bottom:3%;
+    height: auto;
+}
+
+.refbox {
+    width:100%;
+    border: 0.5px solid rgb(204, 204, 204);
+    color:black;
+    background-color: white;
+    padding:2%;
+    margin-top:3%;
+    display: flex;
+    height:auto;
+}
+
+.fullwidth{
+    width:100%;
+    height:auto;
+}
+
+.column1{
+    width: 50%;
+    height: auto;
+    display: flex;
+  justify-content: center; /* Zentriert das Bild horizontal */
+  align-items: center;
+}
+.column2{
+    width:50%;
+}
+
+
+
+.reflogo{
+    
+    width: 50%;
+    padding-right:10%;
+    margin-right: 0;
+}
+
+button{
+    background-color: rgb(19, 37, 65);
+    padding-left:4%;
+    padding-right:4%;
+    padding-top:2%;
+    padding-bottom:2%;
+    color:white;
+    font-size:1rem;
+    border:none;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color:rgb(6, 10, 15);
+    color:white;
+}
+
+.alternativ{
+    background-color:white ;
+    padding-left:4%;
+    padding-right:4%;
+    padding-top:2%;
+    padding-bottom:2%;
+    color: black !important;
+    font-size:1rem;
+    border:none;
+    font-weight: bold
+}
+
+.alternativ a {
+    color:black;
+}
+
+.alternativ:hover{
+    background-color: lightgray;
+}
+
+
+
+.kontakte{
+    background-color:rgb(19, 37, 65) ;
+    color:white;
+   align-items: center;
+    height:auto;
+    padding-left:10%;
+    padding-right:10%;
+    display: flex;
+    gap:3%;
+}
+.portrait{
+    width:30%;
+    padding-top:2%;
+    padding-bottom:2%;
+    padding-left:10%;
+}
+
+.portrait img{
+    width: 80%;
+    padding-right:10%;
+    padding-left:10%;
+    margin-right: 0;
+    margin-left: 0;;
+}
+
+.kontakt_info{
+    width:50%;
+    padding-top:2%;
+    padding-bottom:2%;
+}
+
+footer{
+    height: auto;
+    padding:2%;
+    text-align: center;
+    
+}
+
+footer a{
+    color:black;
+    padding:2%;
+
+}
+}
+
+@media (max-width: 768px){
+p{
+    font-size:1rem;
+    line-height:1.5rem;
+    font-weight: lighter;
+}
+
+h1{
+    font-size:1.6rem;
+}
+
+h2{
+    font-size:2rem;
+    font-weight: bold;
+}
+
+h3{
+    font-size:1.6rem;
+    font-weight: 600;
+    color: rgb(16, 31, 54);
+}
+
+
+
+a{
+    color:white;
+    text-decoration: none;
+}
+
+a:hover {
+       
+    text-decoration:underline;
+}
+
+
+
+header{
+    background-color:rgb(19, 37, 65);
+    width: 80%;
+    height:90px;
+    display: flex;
+    padding-left:10%;
+    padding-right:10%;
+    position: fixed;
+    z-index: 1;
+    filter: drop-shadow(0px 2px 4px rgb(0, 0, 0));
+}
+
+.logo{
+    width:50%;
+    height: auto;
+    margin-top: auto;
+    margin-bottom:auto;
+}
+
+.contact{
+    margin-top: auto;
+    margin-bottom:auto;
+    margin-left:auto;
+
+}
+
+.opener{
+    background-image:url(borrmann-media_hintergrund_webseite.jpg);
+    background-position: bottom;
+    padding-right:3%;
+    padding-left:3%;
+    padding-bottom:3%;
+    padding-top:25%;
+    height:40%;
+    width: auto;
+    
+}
+
+.intro{
+    background-color: rgb(19, 37, 65);
+    width:90%;
+    height: auto;
+    padding:3%;
+    position: relative;
+    margin-top:0;
+    margin-bottom:0;
+    color:white;
+}
+
+.leistungen{
+    background-color: rgb(255, 255, 255);
+    width: 90%;
+    padding:3%;
+}
+
+.elemente{
+    display:  flex;
+    flex-direction: column;
+    
+    
+}
+
+.leistung1, .leistung2, .leistung3 {
+    width:100%;
+    color:black;
+    background-color: white;
+    padding-left:4%;
+    margin-top:5%;
+    border: 1px solid rgb(187, 187, 187);
+    
+}
+
+.referenzen{
+    background-color: rgb(226, 226, 226);
+    padding-right:2%;
+    padding-left:2%;
+    padding-top:3%;
+    padding-bottom:3%;
+    height: auto;
+}
+
+.refbox {
+    width:90%;
+    border: 0.5px solid rgb(204, 204, 204);
+    color:black;
+    background-color: white;
+    padding:4%;
+    margin-top:3%;
+    display: flex;
+    flex-direction: column;
+    height:auto;
+}
+
+.fullwidth{
+    width:100%;
+    height:auto;
+}
+
+.column1{
+    width: 100%;
+    padding-top:5%;
+    height: auto;
+    display: flex;
+    justify-content: center; /* Zentriert das Bild horizontal */
+    align-items: center;
+}
+.column2{
+    width:100%;
+    
+}
+
+
+
+.reflogo{
+    padding-left:5%;
+    width: 70%;
+    
+}
+
+button{
+    background-color: rgb(19, 37, 65);
+    padding-left:4%;
+    padding-right:4%;
+    padding-top:2%;
+    padding-bottom:2%;
+    color:white;
+    font-size:1rem;
+    border:none;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color:rgb(6, 10, 15);
+    color:white;
+}
+
+.alternativ{
+    background-color:white ;
+    padding-left:4%;
+    padding-right:4%;
+    padding-top:2%;
+    padding-bottom:2%;
+    color: black !important;
+    font-size:1rem;
+    border:none;
+    font-weight: bold
+}
+
+.alternativ a {
+    color:black;
+}
+
+.alternativ:hover{
+    background-color: lightgray;
+}
+
+
+
+.kontakte{
+    background-color:rgb(19, 37, 65) ;
+    color:white;
+   
+    height:auto;
+    padding-left:5%;
+    padding-right:5%;
+    display: flex;
+    flex-direction: column;
+    gap:3%;
+}
+.portrait{
+    width:80%;
+    padding-top:10%;
+    padding-bottom:2%;
+    
+}
+
+.portrait img{
+    width: 70%;
+}
+
+.kontakt_info{
+    width:100%;
+    padding-top:2%;
+    padding-bottom:10%;
+}
+
+footer{
+    height: auto;
+    padding:5%;
+    text-align: center;
+    
+}
+
+footer a{
+    color:black;
+    padding:2%;
+
+}
+
+}
